@@ -11,7 +11,7 @@ class Location extends Fieldtype
     public function preload()
     {
         return [
-            'googleMapsApiKey' => env('GOOGLE_MAPS_API_KEY', false),
+            'googleMapsApiKey' => env('MIX_GOOGLE_API_KEY', false),
         ];
     }
 
